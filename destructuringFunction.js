@@ -1,6 +1,6 @@
 // destructuring return value
 
-// function calculation(a, b) {
+// function calculate(a, b) {
 //     // return [a + b, a - b, a * b, a / b];
 //     return {
 //         add: a + b,
@@ -11,14 +11,14 @@
 // }
 
 // // const
-// //     add = calculation(100, 2536)[0],
-// //     subtract = calculation(100, 2536)[1];
-// //     multiply = calculation(100, 2536)[2];
-// //     divide = calculation(100, 2536)[3];
+// //     add = calculate(100, 2536)[0],
+// //     subtract = calculate(100, 2536)[1];
+// //     multiply = calculate(100, 2536)[2];
+// //     divide = calculate(100, 2536)[3];
 
-// // const [add, subtract, multiply, divide] = calculation(2801, 2536);
-// // const [add, subtract, multiply, divide = 'NULL'] = calculation(2801, 2536); // default value
-// const { add, divide, multiply, subtract } = calculation(2801, 2536); // unordered destructuring
+// // const [add, subtract, multiply, divide] = calculate(2801, 2536);
+// // const [add, subtract, multiply, divide = 'NULL'] = calculate(2801, 2536); // default value
+// const { add, divide, multiply, subtract } = calculate(2, 2); // unordered destructuring
 
 // console.log(add + ' | ' + subtract + ' | ' + multiply + ' | ' + divide);
 
@@ -37,7 +37,7 @@ const student = {
 }
 
 function printStudent({ name, age, email, points: { total, current, bonus } }) {
-    return `Hello, my name is ${name}, I am ${age} years old and my email is ${email}. I have ${total} points and ${current} points left. I also have ${bonus} bonus points.`;
+    return `Hello, my name is ${name}, I am ${age} years old and my email is ${email}. I have ${total} total points and ${current} current points left. I also have ${bonus} bonus points.`;
 }
 
 console.log(printStudent(student));

@@ -1,4 +1,13 @@
-var s = '';
+let s = '',
+    name = 'Decki',
+    students = ['Decki', 'Dea', 'Dinda'],
+    teachers = ['Choerul', 'Endri', 'Jaka'],
+    liName = document.querySelectorAll('.name'),
+    student = {
+        name: 'Decki',
+        age: '20',
+        email: 'decki@decki.com'
+    };
 
 // Segitiga siku-siku
 // for (var i = 0; i < 10; i++) {
@@ -55,6 +64,33 @@ var s = '';
 //         }
 //     }
 //     s += '\n';
+// }
+
+// forEach (khusus untuk array)
+// student.forEach(m => console.log(m));
+// liName.forEach(n => console.log(n.textContent));
+
+// for..of (array, string, NodeList, arguments)
+// for (const m of student.entries()) {
+//     console.log(m);
+// }
+// for (const n of name) {
+//     console.log(n);
+// }
+// for (n of liName) {
+//     console.log(n.innerHTML);
+// }
+// function addNumber() {
+//     let total = 0;
+//     for (a of arguments) {
+//         total += a;
+//     }
+//     return total;
+// }
+
+// for..in
+// for (m in student) {
+//     console.log(m + ': ' + student[m]);
 // }
 
 console.log(s);
