@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Decki Herdiawan",
+        "id": "HDE-001",
+        "email": "deckiherdiawan@gmail.com",
+        "subject": "Information Systems",
+        "teacherID": 1
+    },
+    {
+        "name": "Sandhika Galih",
+        "id": "HDE-002",
+        "email": "sandhikagalih@unpas.ac.id",
+        "subject": "Information Systems",
+        "teacherID": 2
+    },
+    {
+        "name": "Doddy Ferdiansyah",
+        "id": "HDE-003",
+        "email": "doddy@gmail.com",
+        "subject": "Information Systems",
+        "teacherID": 3
+    }
+]

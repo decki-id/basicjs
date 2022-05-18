@@ -21,10 +21,8 @@ let arr = ["Decki", "Dea", "Surya", "Choerul"],
 // concatStudentsTeachers = students.concat(teachers);
 // console.log(concatStudentsTeachers);
 
-// Spread Operator
-// spreadName = [...name];
-// spreadStudentsTeachers = [...students, 'Zainudin', ...teachers];
-let studentsCopy = [...students];
-studentsCopy[0] = 'Fajar';
-console.log(studentsCopy);
-console.log(students);
+// Get array from object
+// function myFunc() {
+//     return Array.from(arguments);
+// }
+// console.log(myFunc(1, 2, 3, 4, 5));

@@ -1,10 +1,11 @@
-#bg {
+/* #bg {
     background-color: #101010;
-} 
+    text-align: center;
+}
 
 #col {
     color: white;
-}
+} */
 
 /* .hl {
     background-color: red;
@@ -32,4 +33,23 @@
 
 .caption {
     background-color: black;
+} */
+
+/* .name {
+    font-family: arial;
+    font-size: 80px;
+}
+
+.name span {
+    display: inline-block;
+    transition: .3s;
+}
+
+.name span:hover {
+    transform: scale(2) translateY(-20px);
+}
+
+li,
+.name {
+    color: white;
 } */
