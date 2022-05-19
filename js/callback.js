@@ -11,9 +11,6 @@
 
 // showMessage(name => alert(`Hello, ${name}!`));
 
-
-// Asynchronous Callback
-
 // const students = [
 //     {
 //         "name": "Decki Herdiawan",
@@ -47,6 +44,9 @@
 // });
 // console.log("FINISH!!!!");
 
+
+// Asynchronous Callback
+
 // function getStudents(url, success, error) {
 //     let xhr = new XMLHttpRequest();
 
@@ -70,7 +70,7 @@
 //     const students = JSON.parse(results);
 //     students.forEach(s => console.log(s.name));
 // }, (e) => {
-//    console.log(e.responseText);
+//     console.log(e.responseText);
 // });
 // console.log("FINISH!!!!");
 

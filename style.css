@@ -1,11 +1,21 @@
-/* #bg {
+#bg {
     background-color: #101010;
     text-align: center;
 }
 
 #col {
     color: white;
-} */
+}
+
+#omdb-body {
+    background-color: #101010;
+    color: white;
+}
+
+.movie-container,
+.modal {
+    color: black;
+}
 
 /* .hl {
     background-color: red;
